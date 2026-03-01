@@ -1,6 +1,6 @@
 # Functions go here
 def make_statement(statement, decoration):
-    """Emphasises headings by adding decoration
+    """Emphasizes headings by adding decoration
     at the start and end"""
 
     print(f"{decoration * 3} {statement} {decoration * 3}")
@@ -49,6 +49,7 @@ It will also choose one lucky ticker holder who wins the draw (their ticket is f
 
     ''')
 
+
 def not_blank(question):
     """Checks that a user response is not blank"""
 
@@ -59,6 +60,7 @@ def not_blank(question):
             return response
 
         print("Sorry, this can't be blank, PLease try again.\n")
+
 
 def num_checker(question):
     """Checks users enter an integer between two values"""
@@ -83,7 +85,7 @@ def num_checker(question):
 
 # Main routine goes here
 
-# Initialise ticket numbers
+# Initialize ticket numbers
 MAX_TICKETS = 5
 tickets_sold = 0
 
